@@ -65,13 +65,13 @@
 }
 
 .rating-numbers a:hover{
-    background-color: hsl(25, 97%, 53%);
-    color: hsl(216, 12%, 8%);
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(213, 19%, 18%);
 }
 
 .rating-numbers a.active-rating {
-    background-color: hsl(217, 12%, 63%);
-    color: hsl(213, 19%, 18%);
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
   }
 
 /* submit button */
@@ -85,6 +85,11 @@
     align-items: center;
     justify-content: center;
     border-radius: 32px;
+}
+
+.submit-button:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(213, 19%, 18%);
 }
 
 .thankyou-state .selected-rating{
